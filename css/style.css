@@ -51,6 +51,9 @@ html {
 
 
 /* header */
+address{
+    margin: 0;
+}
 
 .header-agile {
     margin-right: 3em;
@@ -68,13 +71,12 @@ a.navbar-brand.logo span.fa {
     color: #fff;
 }
 .buttons a {
-    background: #00BCD4;
-    padding: 10px 25px;
+    font-style: italic;
+    padding-bottom: 5px;
     color: #fff;
     display: block;
     border-radius: 10px;
     letter-spacing: .5px;
-    border: 2px solid #00BCD4;
 }
 
 
