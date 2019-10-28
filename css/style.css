@@ -435,6 +435,18 @@ li > a:only-child:after { content: ''; }
 /*-- //banner --*/
 
 /*-- about --*/
+.minitop{
+    display: flex;
+}
+
+.minitop img{
+    width: 10%;
+}
+
+.about-left {
+    padding: 25px;
+}
+
 .about-left h3 {
     text-transform: capitalize;
     line-height: 36px;
@@ -595,6 +607,7 @@ li > a:only-child:after { content: ''; }
     letter-spacing: 0.5px;
 }
 /*-- //blog --*/
+
 
 /*-- team --*/
 .team-grids {
