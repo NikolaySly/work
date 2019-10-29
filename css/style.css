@@ -88,6 +88,7 @@ header {
     padding: 1rem 0;
     position: fixed;
     background-color: #000;
+    background-image: linear-gradient(to right, #16222A 0%, #3A6073 51%, #16222A 100%);
 }
 
 .toggle,
@@ -449,7 +450,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .about{
-  background-color: #111;  
+    background-color: gainsboro;  
 }
 
 .about-left h3 {
@@ -488,7 +489,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .box {
-    margin: 10px;
+    margin: 20px;
     min-width: 400px;
     min-height: 225px;
     border-radius: 20px;
@@ -497,6 +498,7 @@ li > a:only-child:after { content: ''; }
     transition: 1.5s ease-in-out;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    box-shadow: 17px 17px 22px -1px #000000;
   }
   
   .side {
@@ -519,12 +521,14 @@ li > a:only-child:after { content: ''; }
   }
   .content h1 {
     position: relative;
-    color: #bb8815;
+    color: #00BCD4;
     font-family: initial;
+    font-style: italic;
   }
   .content p {
     line-height: 2em;
-    color: #00BCD4;
+    color: #fff;
+    font-style: italic;
   }
   
   .front {
