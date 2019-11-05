@@ -476,6 +476,20 @@ li > a:only-child:after { content: ''; }
     border-right: 4px solid #fff;
     border-top: 4px solid #fff;
 }
+
+.zz{
+    display: flex;
+}
+
+.py-sm-4 h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.py-sm-4 h5{
+    text-align: center;
+    margin: 20px;
+}
 /*-- //about --*/
 
 /*-- features --*/
@@ -583,6 +597,16 @@ li > a:only-child:after { content: ''; }
 /*-- //pricing --*/
 
 /*-- blog --*/
+.col-lg-4 a{
+    display: block;
+    width: 300px;
+    border: 1px solid #0003;
+}
+
+.col-lg-4 a:hover {
+    filter: grayscale(.5);
+  }
+
 .blog-info {
     background: #f6f6f6;
     padding: 20px;
@@ -697,18 +721,25 @@ li > a:only-child:after { content: ''; }
     color: #000;
     font-weight: bold;
     margin-bottom: 30px;
+    background-color: #f0f8ff8a;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
   }
   .swiper-slide .content .caption {
     display: block;
+    color: #fff;
     font-size: 13px;
-    line-height: 1.4;
-    -webkit-transform: translateX(50px);
-            transform: translateX(50px);
-    -webkit-transition: opacity .3s ease, -webkit-transform .7s ease;
-    transition: opacity .3s ease, -webkit-transform .7s ease;
-    transition: opacity .3s ease, transform .7s ease;
-    transition: opacity .3s ease, transform .7s ease, -webkit-transform .7s ease;
+    background-color: #00000080;
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
   }
+
+  .swiper-slide .content .caption:hover {
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
   .swiper-slide .content .caption.show {
     -webkit-transform: translateX(0);
             transform: translateX(0);
