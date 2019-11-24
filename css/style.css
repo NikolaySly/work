@@ -444,6 +444,8 @@ li > a:only-child:after { content: ''; }
 /*-- //banner --*/
 
 /*-- about --*/
+
+
 .about{
     padding-top: 5rem;
 }
@@ -479,6 +481,22 @@ li > a:only-child:after { content: ''; }
     margin-top: 15px;
     line-height: 28px;
 }
+
+.about-left ul {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: initial;
+    font-style: italic;
+    margin: 20px auto;
+    width: fit-content;
+    line-height: 28px;
+}
+
+.mt-4, .my-4 {
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
 .img-position {
     position: absolute;
     right: 0%;
