@@ -444,10 +444,30 @@ li > a:only-child:after { content: ''; }
 /*-- //banner --*/
 
 /*-- about --*/
-
+.padding-top{
+    padding-bottom: 30px;
+    padding-top: 6rem;
+}
 
 .about{
     padding-top: 5rem;
+}
+
+.gdp{
+    padding-top: 0;
+}
+
+.wer{
+    display: flex;
+    flex: 50;
+}
+.py-sm-4{
+    display: flex;
+}
+
+.py-sm-41 {
+    display: block;
+    text-align: center;
 }
 
 .minitop{
@@ -485,6 +505,7 @@ li > a:only-child:after { content: ''; }
 .about-left ul {
     font-size: 18px;
     letter-spacing: 1px;
+    text-align: left;
     font-family: initial;
     font-style: italic;
     margin: 20px auto;
@@ -520,6 +541,15 @@ li > a:only-child:after { content: ''; }
 .py-sm-4 h5{
     text-align: center;
     margin: 20px;
+}
+
+.save{
+    margin: 20px;
+    text-align: center;
+}
+
+.save a{
+    color: #000;
 }
 /*-- //about --*/
 
@@ -645,10 +675,18 @@ li > a:only-child:after { content: ''; }
     padding-top: 0px;
 }
 
-.text-center {
+.py-sm-4 .text-center {
+    background-color: aliceblue;
+    border-radius: 17px;
     display: flex;
+    border: 1px solid #0000004d;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+.py-sm-4 .text-center1 {
+    margin: 20px auto;
+    width: fit-content;
 }
 
 .col-lg-4 a{
