@@ -458,11 +458,12 @@ li > a:only-child:after { content: ''; }
 }
 
 .wer{
-    display: flex;
-    flex: 50;
+    width: 60%;
 }
 .py-sm-4{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .py-sm-41 {
@@ -524,6 +525,13 @@ li > a:only-child:after { content: ''; }
     max-width: 100%;
     top: 33px;
 }
+
+.img-position-top {
+    position: absolute;
+    right: 0%;
+    max-width: 45%;
+}
+
 .img-border {
     border-right: 4px solid #fff;
     border-top: 4px solid #fff;
